@@ -1,0 +1,232 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+/* #8b3dff - იასამნისფერი*/
+/* rgb(30, 41, 59) - შავი */
+/* rgb(100, 116, 139) - ღია ნაცრისფერი */
+
+body {
+  font-family: "Public Sans", sans-serif;
+}
+
+/* ------- general start --------- */
+
+button {
+  font-family: "Public Sans", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.contacts-black-text {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #1e293be7;
+}
+
+.span-purple-text {
+  color: #7634d9;
+}
+
+.black-text {
+  color: rgb(30, 41, 59);
+  font-size: 30px;
+}
+
+.opacity-text {
+  color: rgb(30, 41, 59);
+  opacity: 0.6;
+}
+
+.gray-text {
+  opacity: 0.4;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-size: 14px;
+}
+
+.btn-purple {
+  background-color: #8b3dff;
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  padding: 8px 16px;
+  transition: 0.2s;
+}
+
+.link-text {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+/* ------- general end --------- */
+
+.container {
+  max-width: 1320px;
+  margin: auto;
+}
+
+/* nav start */
+.navbar-container {
+  padding: 10px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-list ul {
+  gap: 20px;
+  list-style: none;
+  display: flex;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #475569;
+}
+
+.navbar-btn-container {
+  display: flex;
+  gap: 8px;
+}
+
+.btn-light {
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  background-color: #f1f5f9;
+  color: #64748b;
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: 0.2s;
+}
+
+.btn-light:hover {
+  background-color: #e2e8f0;
+  color: #334155;
+}
+
+.btn-purple:hover {
+  color: #fff;
+  background-color: #7634d9;
+}
+
+.logo-img {
+  width: 50px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+/* nav end */
+
+/* hero start */
+.hero {
+  background-color: #8b3dff;
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  gap: 20px;
+  text-align: center;
+  min-height: 500px;
+}
+
+.hero h1 {
+  font-size: 50px;
+}
+
+.hero-heading {
+  margin-top: 40px;
+}
+
+.hero-description {
+  width: 600px;
+}
+
+.hero-avatar-image {
+  border-radius: 100%;
+  margin-bottom: -100px;
+  width: 180px;
+  border: 3px solid white;
+  margin-top: 30px;
+}
+
+/* hero end */
+
+/* avatart start */
+.portfolio-section {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.portfolio-text {
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+
+.portfolio-section h2 {
+  margin-bottom: 20px;
+  width: 400px;
+}
+
+.experience-text {
+  margin-bottom: 50px;
+}
+
+/* avatart end */
+
+/* portfolio cards start */
+.portfolio-cards-section-container {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  padding: 30px;
+}
+
+.portfolio-cards-section img {
+  max-width: 100%;
+  display: block;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.portfolio-card {
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 20px;
+  padding: 24px 24px 0px;
+}
+
+.portfolio-card h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1e293b;
+  line-height: 1.4;
+}
+
+.badge-container {
+  display: flex;
+  gap: 10px;
+  margin: 30px 0px;
+}
+
+.badge {
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.5rem;
+  padding: 0.35em 0.65em;
+  color: #334155;
+  font-weight: 700;
+  font-size: 0.75em;
+  margin-bottom: 20px;
+}
+
+/* portfolio cards end */
