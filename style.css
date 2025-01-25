@@ -121,6 +121,7 @@ button {
   display: flex;
   align-items: center;
 }
+
 /* nav end */
 
 /* hero start */
@@ -131,9 +132,10 @@ button {
   align-items: center;
   flex-direction: column;
   padding: 20px;
+  padding-bottom: 50px;
   gap: 20px;
   text-align: center;
-  min-height: 500px;
+  min-height: 550px;
 }
 
 .hero h1 {
@@ -145,7 +147,7 @@ button {
 }
 
 .hero-description {
-  width: 600px;
+  max-width: 600px;
 }
 
 .hero-avatar-image {
@@ -230,3 +232,14 @@ button {
 }
 
 /* portfolio cards end */
+
+@media screen and (max-width: 600px) {
+  .navbar-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .portfolio-cards-section-container {
+    flex-direction: column;
+  }
+}
