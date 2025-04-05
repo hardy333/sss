@@ -231,6 +231,14 @@ button {
   margin-bottom: 20px;
 }
 
+.card-link {
+  text-decoration: none;
+}
+
+.card-link h2:hover {
+  text-decoration: underline;
+}
+
 /* portfolio cards end */
 
 @media screen and (max-width: 600px) {
